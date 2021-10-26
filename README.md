@@ -1,4 +1,4 @@
-# Cloud-Infrastructure-Fault-Monitoring-and-Analysis.
+# Cloud-Infrastructure-Fault-Monitoring-and-Analysis
 
 •	Analysis of the system logs provides us useful information for identifying system/application`s important knowledge that helps in better usage of system resources.
 
