@@ -25,7 +25,6 @@ color:red;
 MongoClient mongoClient=new MongoClient("localhost",27017);
 DB db=mongoClient.getDB("admin");
 DBCollection coll=db.getCollection("mycollection");
-
 DBCursor cursor=coll.find();
 while(cursor.hasNext())
 {
