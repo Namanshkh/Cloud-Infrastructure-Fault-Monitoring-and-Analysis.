@@ -1,0 +1,5 @@
+journalctl -p 0{for viewing the syslogs of severity 0}
+journalctl -p 0..3{for viewing the syslogs of severity 0 to 3}
+journalctl -p 5{for viewing the syslogs of severity 5}
+Script severity1.csv {to save file on the home directory}
+exit
