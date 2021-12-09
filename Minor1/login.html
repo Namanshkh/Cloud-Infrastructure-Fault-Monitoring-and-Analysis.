@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           box-sizing: border-box;
+         }
+    .center{
+           width: 50%;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: auto;
+    margin: 174px 337px; 
+    }
+    
+    .btn{
+           background-color: cyan;
+           margin: 120px 41px;
+           padding: 8%;
+           width: 163px;
+           border-radius: 11px;
+    }
+    
+     body{
+    background-image: url("img/bk.jpg");
+    background-repeat: no-repeat;
+    background-size: 112%;
+    background-position-x: center;
+    background-position-y: center;
+ }
+     h1{
+        /* border: 2px solid red; */
+        text-align: center;
+        /* color: #9898c6; */
+        background-color: #adcce4;
+    margin: 85px 87px;
+    }
+    #bt1{
+        background-color: red;
+    }
+    #bt2{
+        background-color: #eada12;
+    }
+    #bt3{
+        background-color: green;
+    }
+    </style>
+</head>
+<body>
+<h1> VIEW YOUR LOGS </h1>
+
+    <div class="center">
+        <div>
+            <form action="home.jsp" method="post">
+                <button class="btn" id="bt1">ERROR LOGS</button>
+            </form>
+        </div>
+        <div>
+            <form action="home4.jsp" method="post">
+                <button class="btn" id="bt2">WARNING LOGS</button>
+            </form>
+        </div>
+           <form action="home7.jsp" method="post">
+               <button class="btn" id="bt3">GENERAL LOGS</button>
+           </form>
+    </div>
+</body>
+</html>
