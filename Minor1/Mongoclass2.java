@@ -3,9 +3,7 @@ import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
 import com.mongodb.Mongo;
-
 import java.net.UnknownHostException;
-
 import com.mongodb.DB;
 
 
@@ -28,7 +26,5 @@ public class MongoClass2 {
 			
 		System.out.println("Connection Established Successfully");
 		
-
 	}
-
 }
