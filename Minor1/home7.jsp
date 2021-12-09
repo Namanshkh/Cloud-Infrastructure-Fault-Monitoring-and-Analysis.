@@ -21,8 +21,6 @@ color:green;
 </head>
 <body>
 
-
-
 <%
 MongoClient mongoClient=new MongoClient("localhost",27017);
 DB db=mongoClient.getDB("admin");
