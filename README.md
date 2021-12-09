@@ -6,7 +6,7 @@
 
 •	 These factors limit the large-scale system logs firstly for generation alerts or warnings on known system events, and also prevents diagnosis for identifying previously unknown system events that impacted the systems performance.
 
-•	 In our project, we will be building a log monitoring UI framework that shows analysis of system events in real-time. 
+•	 In our project, we will be building a log monitoring UI framework that shows analysis of system events. 
 
-•	Our UI framework provides a organized view of log events real time The logs are analysed and processed and is viewed on our UI interface.
+•	Our UI framework provides a organized view of log events. The logs are analysed and processed and is viewed on our UI interface.
 
